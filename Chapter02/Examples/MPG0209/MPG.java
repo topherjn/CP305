@@ -25,7 +25,7 @@ public class MPG {
         answer = (double) miles / gallons;
 
 		// display result to user
-        System.out.printf("%f\n", answer);
+        System.out.printf("The MPG is %.2f\n", answer);
 
 	}
 }
