@@ -15,7 +15,5 @@ public class Vitals {
 
         // display variables
         System.out.printf("My name is %s, my age is %d, and I hope to earn $%.2f per year.\n", name, age, annualPay);
-
-
     }
 }
