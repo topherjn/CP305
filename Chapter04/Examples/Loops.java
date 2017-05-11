@@ -8,13 +8,10 @@ public class Loops {
           final int SENTINEL = -1;
           Scanner input = new Scanner(System.in);
 
-          System.out.printf("Enter a whole number: ");
-          i = input.nextInt();
-
-          while(i != SENTINEL) {
+          do {
              System.out.printf("Enter a whole number: ");
              i = input.nextInt();
-	  }
+	  } while(i == SENTINEL);
 
           System.out.println("Loop done");
          
