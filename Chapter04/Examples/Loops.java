@@ -3,13 +3,14 @@ public class Loops {
      public static void main(String [] args) {
 
           int i = 0;
+          int sum = 0;
 
           while(i < 10) {
-               System.out.println(i + 1);
-
+               
+               sum+=i;
                i++;
           }
 	
-          System.out.println("Loop done");
+          System.out.println((double) sum / i);
      }
 }
