@@ -5,7 +5,7 @@ public class Loops {
           int i = 0;
 
           while(i < 10) {
-               System.out.println("Chris");
+               System.out.println(i + 1);
 
                i++;
           }
