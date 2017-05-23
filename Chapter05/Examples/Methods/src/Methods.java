@@ -14,6 +14,14 @@ public class Methods {
 
         greeting();
 
+        String firstName = "MiKe";
+
+
+        if(firstName.toLowerCase().equals("mike"))
+        {
+            System.out.println("Match");
+        }
+
     }
 
 
